@@ -19,7 +19,7 @@ help() {
 	exit 1
 }
 
-#get sha1 of last git commit
+#get sha1 value from git
 sha() {
 	if [ ! -s .sha1 ];then
         	echo "LSHA=$sha1" >> .env
@@ -34,7 +34,7 @@ sha() {
 #########
 # MAIN
 #########
-
+#valid number of arguments
 if [ "$#" -ne 1 ]; then
 	help
 fi
