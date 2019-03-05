@@ -13,5 +13,5 @@ script:
   - go vet
   - go test -v -race -cover
   - ./.travis.quality.sh
-  - gosec -exclude=G104 main.go
+  - /Users/vigneshn/Desktop/Golang/bin/gosec -exclude=G104 main.go
   - ./build.sh rebuild
