@@ -1,4 +1,5 @@
 #!/bin/bash
+touch /tmp/test
 if [ -n "$(gofmt -l .)" ]; then
     echo "Go code is not formatted:"
     gofmt -d .

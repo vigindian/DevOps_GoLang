@@ -50,7 +50,7 @@ case $arg in
 	rebuild)
 		echo "Rebuilding the image and run the container"
 		sha
-		docker-compose up --build
+		docker-compose up --build -d
 	;;
 	ls)
 		echo "Verifying the size of the image"
@@ -59,7 +59,7 @@ case $arg in
 	run)
 		echo "Running the golang api app in a container"
 		sha
-		docker-compose run 
+		docker-compose up -d
 	;;
 	help)
 		help
