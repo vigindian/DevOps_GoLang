@@ -1,12 +1,11 @@
 version: '3'
 
 services:
-  web:
+  gojapi:
     build: .
-    command: fresh
     env_file:
       - '.env'
     ports:
-      - '5000:5000'
+      - '8000:8000'
     volumes:
-      - '.:/go/src/app'
+      - '.:$GOPATH/src/infy/health'
