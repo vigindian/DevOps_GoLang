@@ -1,1 +1,1 @@
-# Golang script with 1 endpoint, "/healthcheck"
+# GoLang JSON API with Travis CI Pipeline
