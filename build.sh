@@ -5,7 +5,10 @@
 # 20190305
 ######################################
 
+#Get git details
 sha1=`git rev-parse HEAD`
+
+#Variable to hold the app name, to print in the response
 Name="GoLang API Application"
 
 ###########
@@ -39,8 +42,10 @@ if [ "$#" -ne 1 ]; then
 	help
 fi
 
+#Get first-argument and store it in a variable
 arg=$1
 
+#Evaluate the input
 case $arg in
 	build)
 		echo "Building the image"
