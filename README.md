@@ -12,7 +12,7 @@ When the code is pushed to Github, TravisCI automatically runs a set of pre-defi
 <h4>Sample Response</h4>
 [{"version":"1.0",
 "description":"DevOps Golang API",
-"lastcommitsha":"<lastcommitsha>"}]
+"lastcommitsha":"\<lastcommitsha\>"}]
 <br>
 <h3>Code Quality Check Script</h3>
 - The script checks formatting with “gofmt -l” command.<br>
