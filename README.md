@@ -6,7 +6,7 @@ When the code is pushed to Github, TravisCI automatically runs a set of pre-defi
 <h2>API Sample Response</h2>
 [{"version":"1.0",
 "description":"DevOps Golang API",
-"lastcommitsha":<lastcommitsha"}]
+"lastcommitsha":"<lastcommitsha>"}]
 <br><br>
 <h2>Scripts</h2>
 <h3>GoLang API Script</h3>
