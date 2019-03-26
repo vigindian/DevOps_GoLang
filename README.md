@@ -18,7 +18,7 @@ When the code is pushed to Github, TravisCI automatically runs a set of pre-defi
 - The script checks formatting with “gofmt -l” command.<br>
 - The security issues are checked with “gosec” command.<br>
 <h3>1.3. Build Script</h3>
-A build script has been developed for easy maintenance of the GoLang API application.<br>
+A build script has been developed for easy maintenance of the GoLang API application.<br><br>
 Usage: ./build.sh [action]
 <br><br>
 
