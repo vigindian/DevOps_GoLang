@@ -2,7 +2,8 @@
 
 A GoLang application that prints an API response in JSON format. <br>
 
-When the code is pushed to Github, TravisCI automatically runs a set of pre-defined test cases and build.
+When the code is pushed to Github, TravisCI automatically runs a set of pre-defined test cases and build.<br>
+<a href="https://travis-ci.org/vigindian/DevOps_GoLang">TravisCI Pipeline</a>
 <br><br>
 <h2>1. Scripts</h2>
 <h3>1.1. GoLang API Script</h3>
