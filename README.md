@@ -34,7 +34,7 @@ Travis YAML file .travis.yml contains the steps to be taken. TravisCI looks for 
 <h3>2.1. Test Suite</h3>
 - go vet<br>
 - go test -v -race -cover:<br>
-- .travis.quality.sh: script internally checks formatting with "gofmt -l" and security issues with "gosec".
+- .travis.quality.sh: script checks formatting with "gofmt -l" and security issues with "gosec".
 
 <br><br>
 <h2>3. Containerised App</h2>
