@@ -32,9 +32,9 @@ help: Print this help page and exit
 <h2>2. CI Pipeline with Travis CI</h2>
 Travis YAML file .travis.yml contains the steps to be taken. TravisCI looks for this file and executes steps as mentioned in the yml file.
 <h3>2.1. Test Suite</h3>
-1. go vet<br>
-2. go test -v -race -cover:<br>
-3. .travis.quality.sh: script internally checks formatting with "gofmt -l" and security issues with "gosec".
+- go vet<br>
+- go test -v -race -cover:<br>
+- .travis.quality.sh: script internally checks formatting with "gofmt -l" and security issues with "gosec".
 
 <br><br>
 <h2>3. Containerised App</h2>
