@@ -34,7 +34,7 @@ func main() {
 
 	new := os.Getenv("LSHA")
 	//define values for the API object
-	health = append(health, Health{Version: "1.0", Description: "TEST2 DevOps GoLang API", Lastcommitsha: new})
+	health = append(health, Health{Version: "1.0", Description: "DevOps GoLang API", Lastcommitsha: new})
 
 	//create the endpoint
 	router.HandleFunc("/healthcheck", GetHealth).Methods("GET")
