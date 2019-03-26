@@ -10,13 +10,13 @@ When the code is pushed to Github, TravisCI automatically runs a set of pre-defi
 <br><br>
 <h2>Scripts</h2>
 <h3>GoLang API Script</h3>
-- The GoLang script uses “github.com/gorilla/mux” to create the endpoint “/healthcheck” for the API.
-- The SHA is obtained with command “git rev-parse HEAD” command.
-- The “json” module is used to handle the API output.
+- The GoLang script uses “github.com/gorilla/mux” to create the endpoint “/healthcheck” for the API.<br>
+- The SHA is obtained with command “git rev-parse HEAD” command.<br>
+- The “json” module is used to handle the API output.<br>
 <br>
 <h3>Code Quality Check Script</h3>
-- The script checks formatting with “gofmt -l” command.
-- The security issues are checked with “gosec” command.
+- The script checks formatting with “gofmt -l” command.<br>
+- The security issues are checked with “gosec” command.<br>
 <br>
 <h3>Build Script</h3>
 A build script has been developed for easy maintenance of the GoLang API application.
