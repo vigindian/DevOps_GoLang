@@ -3,16 +3,16 @@
 A GoLang application that prints an API response in JSON format. <br>
 
 When the code is pushed to Github, TravisCI automatically runs a set of pre-defined test cases and build.
-<h2>API Sample Response</h2>
-[{"version":"1.0",
-"description":"DevOps Golang API",
-"lastcommitsha":"<lastcommitsha>"}]
 <br><br>
 <h2>Scripts</h2>
 <h3>GoLang API Script</h3>
 - The GoLang script uses “github.com/gorilla/mux” to create the endpoint “/healthcheck” for the API.<br>
 - The SHA is obtained with command “git rev-parse HEAD” command.<br>
 - The “json” module is used to handle the API output.<br>
+<h4>Sample Response</h4>
+[{"version":"1.0",
+"description":"DevOps Golang API",
+"lastcommitsha":"<lastcommitsha>"}]
 <br>
 <h3>Code Quality Check Script</h3>
 - The script checks formatting with “gofmt -l” command.<br>
